@@ -42,7 +42,7 @@ It is deliberately small. The goal is to validate the semantics, interfaces, tes
 ## Quick start
 
 ```bash
-python -m pip install -e .
+python -m pip install -e ".[dev]"
 python examples/toy_geopolitical_filter.py
 python -m pytest
 ```
